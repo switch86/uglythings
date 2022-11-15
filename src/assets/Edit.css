@@ -1,0 +1,8 @@
+.editForm {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+}
+.editForm button {
+    grid-column: 1/3;
+}

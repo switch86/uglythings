@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.NewUgly {
+  background: rgb(143, 125, 158);
+  padding: 2em 5em;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  text-align: left;
+  border-radius: 20px;
+}
+.NewUgly label {
+  font-weight: 800;
+  font-size: large;
+  margin: 10px;
+}
+.NewUgly input {
+  border-radius: 5px;
+  margin: 10px;
+}
+.NewUgly button {
+  grid-column: 1/3;
+  margin: 10px 10em;
+}
+.NewUgly button:hover {
+  color:rgb(143, 125, 158);
+  transition-duration: .25s;
+}
+.title {
+  height: 2em;
+}
+.description {
+  height: 4em;
+}
+.UglyList {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.UglyList img {
+  border-radius: 5px;
+}
+.UglyImage {
+  border: 2px grey solid;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.tile button {
+  margin: 5px 20px;
+}
+.tile {
+  background: lightgrey;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
